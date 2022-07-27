@@ -350,3 +350,8 @@ MigrationBackup/
 .ionide/
 SourceGeneratorConsole/.DS_Store
 .DS_Store
+.idea/.idea.SourceGenerator/.idea/indexLayout.xml
+.idea/.idea.SourceGenerator/.idea/projectSettingsUpdater.xml
+.idea/.idea.SourceGenerator/.idea/.name
+.idea/.idea.SourceGenerator/.idea/vcs.xml
+.idea/.idea.SourceGenerator/.idea/workspace.xml

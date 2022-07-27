@@ -32,10 +32,10 @@ namespace SourceGeneratorLibrary
                             namespace {mainMethodNameSpace};
                             
                             public static partial class {typeName}
-{{
-    static partial void HelloFrom(string name) => 
-        Console.WriteLine($""Generator says: Hi from '{{name}}'"");
-}}";
+                            {{
+                                static partial void HelloFrom(string name) => 
+                                    Console.WriteLine($""Generator says: Hi from '{{name}}'"");
+                            }}";
             Debug.WriteLine($"Source: {source}");
 
             Debug.WriteLine("Finish: Preparing Source");
